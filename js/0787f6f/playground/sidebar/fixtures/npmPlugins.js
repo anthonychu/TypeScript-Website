@@ -1,0 +1,148 @@
+define(["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.allNPMPlugins = void 0;
+    exports.allNPMPlugins = [
+        {
+            name: "@Structured Types/plugin",
+            id: "@structured-types/playground-plugin",
+            description: "TypeScript playground plugin for structured-types",
+            author: "atanasster",
+            href: "https://github.com/ccontrols/structured-types",
+        },
+        {
+            name: "Dt Review",
+            id: "playground-dt-review",
+            description: "Makes reviewing DefinitelyTyped PRs easier",
+            author: "orta",
+            href: "https://www.npmjs.com/package/playground-dt-review",
+        },
+        {
+            name: "Ts Scanner",
+            id: "playground-ts-scanner",
+            description: "See the results of the TypeScript Scanner on some code",
+            author: "orta",
+            href: "https://github.com/orta/playground-ts-scanner",
+        },
+        {
+            name: "Live Transformer",
+            id: "playground-live-transformer",
+            description: "A plugin to create a TypeScript transformer live in the playground",
+            author: "kevram",
+            href: "https://github.com/kevinramharak/playground-live-transformer",
+        },
+        {
+            name: "Collaborate",
+            id: "playground-collaborate",
+            description: "A simple way to live-code in the Playground with others.",
+            author: "orta",
+            href: "https://github.com/orta/playground-collaborate",
+        },
+        {
+            name: "Codeblock Examples",
+            id: "playground-plugin-codeblock-examples",
+            description: "Use markdown codeblocks to demo many code samples in the playground",
+            author: "orta",
+            href: "https://github.com/orta/playground-plugin-codeblock-examples",
+        },
+        {
+            name: "Clippy",
+            id: "playground-clippy",
+            description: "Finally, someone who has an answer for every problem in your Playground",
+            author: "orta",
+            href: "https://github.com/orta/playground-clippy",
+        },
+        {
+            name: "Prettier",
+            id: "ts-playground-plugin-prettier",
+            description: "A simple button to make valid playground code Prettier!",
+            author: "xavdid",
+            href: "https://www.npmjs.com/package/ts-playground-plugin-prettier",
+        },
+        {
+            name: "Ts Transform Runtime Check",
+            id: "playground-ts-transform-runtime-check",
+            description: "A playground plugin for ts-transform-runtime-check",
+            author: "kevram",
+            href: "https://github.com/kevinramharak/playground-ts-transform-runtime-check",
+        },
+        {
+            name: "Ts Symbols",
+            id: "playground-ts-symbols",
+            description: "Shows the compiler symbols which are created by your playground code",
+            author: "orta",
+            href: "https://github.com/orta/playground-ts-symbols",
+        },
+        {
+            name: "Browser Fs",
+            id: "playground-browser-fs",
+            description: "Playground plugin to enable other plugins to use BrowserFS as filesystem",
+            author: "kevram",
+            href: "https://github.com/kevinramharak/playground-browser-fs",
+        },
+        {
+            name: "Vim",
+            id: "ts-playground-plugin-vim",
+            description: "Provides Vim keybindings for TypeScript Playground editor.",
+            author: "quramy",
+            href: "https://www.npmjs.com/package/ts-playground-plugin-vim",
+        },
+        {
+            name: "Link Shortener",
+            id: "typescript-playground-link-shortener",
+            description: "Create short-links for your current playground code and compiler settings",
+            author: "gillchristian",
+            href: "https://github.com/gillchristian/tsplay.dev",
+        },
+        {
+            name: "@Type Challenges/plugin",
+            id: "@type-challenges/playground-plugin",
+            description: "Playground integration for Type Challenges",
+            author: "antfu",
+            href: "https://github.com/type-challenges/playground-type-challenges-plugin",
+        },
+        {
+            name: "Planning Day",
+            id: "planning-day",
+            description: "TypeScript Playground plugin for planning an agile sprint or iteration by combining static type verification of configuration with a React Gantt chart visualization.",
+            author: "jsuder",
+            href: "https://github.com/JSuder-xx/planning-day",
+        },
+        {
+            name: "Presentation Mode",
+            id: "typescript-playground-presentation-mode",
+            description: "Present your TypeScript talk directly in the playground, powered by GitHub gists!",
+            author: "orta",
+            href: "https://www.npmjs.com/package/typescript-playground-presentation-mode",
+        },
+        {
+            name: "Dts Plugin",
+            id: "playground-dts-plugin",
+            description: "Generate d.ts from JS",
+            author: "sanders_n",
+            href: "https://github.com/sandersn/playground-dts-plugin",
+        },
+        {
+            name: "Transformer Timeline",
+            id: "playground-transformer-timeline",
+            description: "Lets you see each stage of the transform process for a TypeScript JS + DTS emit as a timeline.",
+            author: "orta",
+            href: "https://github.com/orta/playground-transformer-timeline",
+        },
+        {
+            name: "Code Show Flow",
+            id: "playground-code-show-flow",
+            description: "Visualize some of the Code Flow Analysis",
+            author: "orta",
+            href: "https://www.npmjs.com/package/playground-code-show-flow",
+        },
+        {
+            name: "GitHub Explorer",
+            id: "ts-playground-plugin-github-explorer",
+            description: "Explore a GitHub repo on TypeScript playground",
+            author: "emnudge",
+            href: "https://www.npmjs.com/package/ts-playground-plugin-github-explorer",
+        },
+    ];
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibnBtUGx1Z2lucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL3BsYXlncm91bmQvc3JjL3NpZGViYXIvZml4dHVyZXMvbnBtUGx1Z2lucy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0lBQWEsUUFBQSxhQUFhLEdBQUc7UUFDM0I7WUFDRSxJQUFJLEVBQUUsMEJBQTBCO1lBQ2hDLEVBQUUsRUFBRSxxQ0FBcUM7WUFDekMsV0FBVyxFQUFFLG1EQUFtRDtZQUNoRSxNQUFNLEVBQUUsWUFBWTtZQUNwQixJQUFJLEVBQUUsK0NBQStDO1NBQ3REO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsV0FBVztZQUNqQixFQUFFLEVBQUUsc0JBQXNCO1lBQzFCLFdBQVcsRUFBRSw0Q0FBNEM7WUFDekQsTUFBTSxFQUFFLE1BQU07WUFDZCxJQUFJLEVBQUUsb0RBQW9EO1NBQzNEO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsWUFBWTtZQUNsQixFQUFFLEVBQUUsdUJBQXVCO1lBQzNCLFdBQVcsRUFBRSx3REFBd0Q7WUFDckUsTUFBTSxFQUFFLE1BQU07WUFDZCxJQUFJLEVBQUUsK0NBQStDO1NBQ3REO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsa0JBQWtCO1lBQ3hCLEVBQUUsRUFBRSw2QkFBNkI7WUFDakMsV0FBVyxFQUNULG9FQUFvRTtZQUN0RSxNQUFNLEVBQUUsUUFBUTtZQUNoQixJQUFJLEVBQUUsOERBQThEO1NBQ3JFO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsYUFBYTtZQUNuQixFQUFFLEVBQUUsd0JBQXdCO1lBQzVCLFdBQVcsRUFBRSwwREFBMEQ7WUFDdkUsTUFBTSxFQUFFLE1BQU07WUFDZCxJQUFJLEVBQUUsZ0RBQWdEO1NBQ3ZEO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsb0JBQW9CO1lBQzFCLEVBQUUsRUFBRSxzQ0FBc0M7WUFDMUMsV0FBVyxFQUNULHFFQUFxRTtZQUN2RSxNQUFNLEVBQUUsTUFBTTtZQUNkLElBQUksRUFBRSw4REFBOEQ7U0FDckU7UUFDRDtZQUNFLElBQUksRUFBRSxRQUFRO1lBQ2QsRUFBRSxFQUFFLG1CQUFtQjtZQUN2QixXQUFXLEVBQ1QseUVBQXlFO1lBQzNFLE1BQU0sRUFBRSxNQUFNO1lBQ2QsSUFBSSxFQUFFLDJDQUEyQztTQUNsRDtRQUNEO1lBQ0UsSUFBSSxFQUFFLFVBQVU7WUFDaEIsRUFBRSxFQUFFLCtCQUErQjtZQUNuQyxXQUFXLEVBQUUseURBQXlEO1lBQ3RFLE1BQU0sRUFBRSxRQUFRO1lBQ2hCLElBQUksRUFBRSw2REFBNkQ7U0FDcEU7UUFDRDtZQUNFLElBQUksRUFBRSw0QkFBNEI7WUFDbEMsRUFBRSxFQUFFLHVDQUF1QztZQUMzQyxXQUFXLEVBQUUsb0RBQW9EO1lBQ2pFLE1BQU0sRUFBRSxRQUFRO1lBQ2hCLElBQUksRUFDRix3RUFBd0U7U0FDM0U7UUFDRDtZQUNFLElBQUksRUFBRSxZQUFZO1lBQ2xCLEVBQUUsRUFBRSx1QkFBdUI7WUFDM0IsV0FBVyxFQUNULHNFQUFzRTtZQUN4RSxNQUFNLEVBQUUsTUFBTTtZQUNkLElBQUksRUFBRSwrQ0FBK0M7U0FDdEQ7UUFDRDtZQUNFLElBQUksRUFBRSxZQUFZO1lBQ2xCLEVBQUUsRUFBRSx1QkFBdUI7WUFDM0IsV0FBVyxFQUNULDBFQUEwRTtZQUM1RSxNQUFNLEVBQUUsUUFBUTtZQUNoQixJQUFJLEVBQUUsd0RBQXdEO1NBQy9EO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsS0FBSztZQUNYLEVBQUUsRUFBRSwwQkFBMEI7WUFDOUIsV0FBVyxFQUFFLDREQUE0RDtZQUN6RSxNQUFNLEVBQUUsUUFBUTtZQUNoQixJQUFJLEVBQUUsd0RBQXdEO1NBQy9EO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsZ0JBQWdCO1lBQ3RCLEVBQUUsRUFBRSxzQ0FBc0M7WUFDMUMsV0FBVyxFQUNULDJFQUEyRTtZQUM3RSxNQUFNLEVBQUUsZUFBZTtZQUN2QixJQUFJLEVBQUUsNkNBQTZDO1NBQ3BEO1FBQ0Q7WUFDRSxJQUFJLEVBQUUseUJBQXlCO1lBQy9CLEVBQUUsRUFBRSxvQ0FBb0M7WUFDeEMsV0FBVyxFQUFFLDRDQUE0QztZQUN6RCxNQUFNLEVBQUUsT0FBTztZQUNmLElBQUksRUFDRixzRUFBc0U7U0FDekU7UUFDRDtZQUNFLElBQUksRUFBRSxjQUFjO1lBQ3BCLEVBQUUsRUFBRSxjQUFjO1lBQ2xCLFdBQVcsRUFDVCx1S0FBdUs7WUFDekssTUFBTSxFQUFFLFFBQVE7WUFDaEIsSUFBSSxFQUFFLDJDQUEyQztTQUNsRDtRQUNEO1lBQ0UsSUFBSSxFQUFFLG1CQUFtQjtZQUN6QixFQUFFLEVBQUUseUNBQXlDO1lBQzdDLFdBQVcsRUFDVCxtRkFBbUY7WUFDckYsTUFBTSxFQUFFLE1BQU07WUFDZCxJQUFJLEVBQ0YsdUVBQXVFO1NBQzFFO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsWUFBWTtZQUNsQixFQUFFLEVBQUUsdUJBQXVCO1lBQzNCLFdBQVcsRUFBRSx1QkFBdUI7WUFDcEMsTUFBTSxFQUFFLFdBQVc7WUFDbkIsSUFBSSxFQUFFLG1EQUFtRDtTQUMxRDtRQUNEO1lBQ0UsSUFBSSxFQUFFLHNCQUFzQjtZQUM1QixFQUFFLEVBQUUsaUNBQWlDO1lBQ3JDLFdBQVcsRUFDVCxnR0FBZ0c7WUFDbEcsTUFBTSxFQUFFLE1BQU07WUFDZCxJQUFJLEVBQUUseURBQXlEO1NBQ2hFO1FBQ0Q7WUFDRSxJQUFJLEVBQUUsZ0JBQWdCO1lBQ3RCLEVBQUUsRUFBRSwyQkFBMkI7WUFDL0IsV0FBVyxFQUFFLDBDQUEwQztZQUN2RCxNQUFNLEVBQUUsTUFBTTtZQUNkLElBQUksRUFBRSx5REFBeUQ7U0FDaEU7UUFDRDtZQUNFLElBQUksRUFBRSxpQkFBaUI7WUFDdkIsRUFBRSxFQUFFLHNDQUFzQztZQUMxQyxXQUFXLEVBQUUsZ0RBQWdEO1lBQzdELE1BQU0sRUFBRSxTQUFTO1lBQ2pCLElBQUksRUFBRSxvRUFBb0U7U0FDM0U7S0FDRixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGFsbE5QTVBsdWdpbnMgPSBbXG4gIHtcbiAgICBuYW1lOiBcIkBTdHJ1Y3R1cmVkIFR5cGVzL3BsdWdpblwiLFxuICAgIGlkOiBcIkBzdHJ1Y3R1cmVkLXR5cGVzL3BsYXlncm91bmQtcGx1Z2luXCIsXG4gICAgZGVzY3JpcHRpb246IFwiVHlwZVNjcmlwdCBwbGF5Z3JvdW5kIHBsdWdpbiBmb3Igc3RydWN0dXJlZC10eXBlc1wiLFxuICAgIGF1dGhvcjogXCJhdGFuYXNzdGVyXCIsXG4gICAgaHJlZjogXCJodHRwczovL2dpdGh1Yi5jb20vY2NvbnRyb2xzL3N0cnVjdHVyZWQtdHlwZXNcIixcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiRHQgUmV2aWV3XCIsXG4gICAgaWQ6IFwicGxheWdyb3VuZC1kdC1yZXZpZXdcIixcbiAgICBkZXNjcmlwdGlvbjogXCJNYWtlcyByZXZpZXdpbmcgRGVmaW5pdGVseVR5cGVkIFBScyBlYXNpZXJcIixcbiAgICBhdXRob3I6IFwib3J0YVwiLFxuICAgIGhyZWY6IFwiaHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvcGxheWdyb3VuZC1kdC1yZXZpZXdcIixcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiVHMgU2Nhbm5lclwiLFxuICAgIGlkOiBcInBsYXlncm91bmQtdHMtc2Nhbm5lclwiLFxuICAgIGRlc2NyaXB0aW9uOiBcIlNlZSB0aGUgcmVzdWx0cyBvZiB0aGUgVHlwZVNjcmlwdCBTY2FubmVyIG9uIHNvbWUgY29kZVwiLFxuICAgIGF1dGhvcjogXCJvcnRhXCIsXG4gICAgaHJlZjogXCJodHRwczovL2dpdGh1Yi5jb20vb3J0YS9wbGF5Z3JvdW5kLXRzLXNjYW5uZXJcIixcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiTGl2ZSBUcmFuc2Zvcm1lclwiLFxuICAgIGlkOiBcInBsYXlncm91bmQtbGl2ZS10cmFuc2Zvcm1lclwiLFxuICAgIGRlc2NyaXB0aW9uOlxuICAgICAgXCJBIHBsdWdpbiB0byBjcmVhdGUgYSBUeXBlU2NyaXB0IHRyYW5zZm9ybWVyIGxpdmUgaW4gdGhlIHBsYXlncm91bmRcIixcbiAgICBhdXRob3I6IFwia2V2cmFtXCIsXG4gICAgaHJlZjogXCJodHRwczovL2dpdGh1Yi5jb20va2V2aW5yYW1oYXJhay9wbGF5Z3JvdW5kLWxpdmUtdHJhbnNmb3JtZXJcIixcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiQ29sbGFib3JhdGVcIixcbiAgICBpZDogXCJwbGF5Z3JvdW5kLWNvbGxhYm9yYXRlXCIsXG4gICAgZGVzY3JpcHRpb246IFwiQSBzaW1wbGUgd2F5IHRvIGxpdmUtY29kZSBpbiB0aGUgUGxheWdyb3VuZCB3aXRoIG90aGVycy5cIixcbiAgICBhdXRob3I6IFwib3J0YVwiLFxuICAgIGhyZWY6IFwiaHR0cHM6Ly9naXRodWIuY29tL29ydGEvcGxheWdyb3VuZC1jb2xsYWJvcmF0ZVwiLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJDb2RlYmxvY2sgRXhhbXBsZXNcIixcbiAgICBpZDogXCJwbGF5Z3JvdW5kLXBsdWdpbi1jb2RlYmxvY2stZXhhbXBsZXNcIixcbiAgICBkZXNjcmlwdGlvbjpcbiAgICAgIFwiVXNlIG1hcmtkb3duIGNvZGVibG9ja3MgdG8gZGVtbyBtYW55IGNvZGUgc2FtcGxlcyBpbiB0aGUgcGxheWdyb3VuZFwiLFxuICAgIGF1dGhvcjogXCJvcnRhXCIsXG4gICAgaHJlZjogXCJodHRwczovL2dpdGh1Yi5jb20vb3J0YS9wbGF5Z3JvdW5kLXBsdWdpbi1jb2RlYmxvY2stZXhhbXBsZXNcIixcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiQ2xpcHB5XCIsXG4gICAgaWQ6IFwicGxheWdyb3VuZC1jbGlwcHlcIixcbiAgICBkZXNjcmlwdGlvbjpcbiAgICAgIFwiRmluYWxseSwgc29tZW9uZSB3aG8gaGFzIGFuIGFuc3dlciBmb3IgZXZlcnkgcHJvYmxlbSBpbiB5b3VyIFBsYXlncm91bmRcIixcbiAgICBhdXRob3I6IFwib3J0YVwiLFxuICAgIGhyZWY6IFwiaHR0cHM6Ly9naXRodWIuY29tL29ydGEvcGxheWdyb3VuZC1jbGlwcHlcIixcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiUHJldHRpZXJcIixcbiAgICBpZDogXCJ0cy1wbGF5Z3JvdW5kLXBsdWdpbi1wcmV0dGllclwiLFxuICAgIGRlc2NyaXB0aW9uOiBcIkEgc2ltcGxlIGJ1dHRvbiB0byBtYWtlIHZhbGlkIHBsYXlncm91bmQgY29kZSBQcmV0dGllciFcIixcbiAgICBhdXRob3I6IFwieGF2ZGlkXCIsXG4gICAgaHJlZjogXCJodHRwczovL3d3dy5ucG1qcy5jb20vcGFja2FnZS90cy1wbGF5Z3JvdW5kLXBsdWdpbi1wcmV0dGllclwiLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJUcyBUcmFuc2Zvcm0gUnVudGltZSBDaGVja1wiLFxuICAgIGlkOiBcInBsYXlncm91bmQtdHMtdHJhbnNmb3JtLXJ1bnRpbWUtY2hlY2tcIixcbiAgICBkZXNjcmlwdGlvbjogXCJBIHBsYXlncm91bmQgcGx1Z2luIGZvciB0cy10cmFuc2Zvcm0tcnVudGltZS1jaGVja1wiLFxuICAgIGF1dGhvcjogXCJrZXZyYW1cIixcbiAgICBocmVmOlxuICAgICAgXCJodHRwczovL2dpdGh1Yi5jb20va2V2aW5yYW1oYXJhay9wbGF5Z3JvdW5kLXRzLXRyYW5zZm9ybS1ydW50aW1lLWNoZWNrXCIsXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIlRzIFN5bWJvbHNcIixcbiAgICBpZDogXCJwbGF5Z3JvdW5kLXRzLXN5bWJvbHNcIixcbiAgICBkZXNjcmlwdGlvbjpcbiAgICAgIFwiU2hvd3MgdGhlIGNvbXBpbGVyIHN5bWJvbHMgd2hpY2ggYXJlIGNyZWF0ZWQgYnkgeW91ciBwbGF5Z3JvdW5kIGNvZGVcIixcbiAgICBhdXRob3I6IFwib3J0YVwiLFxuICAgIGhyZWY6IFwiaHR0cHM6Ly9naXRodWIuY29tL29ydGEvcGxheWdyb3VuZC10cy1zeW1ib2xzXCIsXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIkJyb3dzZXIgRnNcIixcbiAgICBpZDogXCJwbGF5Z3JvdW5kLWJyb3dzZXItZnNcIixcbiAgICBkZXNjcmlwdGlvbjpcbiAgICAgIFwiUGxheWdyb3VuZCBwbHVnaW4gdG8gZW5hYmxlIG90aGVyIHBsdWdpbnMgdG8gdXNlIEJyb3dzZXJGUyBhcyBmaWxlc3lzdGVtXCIsXG4gICAgYXV0aG9yOiBcImtldnJhbVwiLFxuICAgIGhyZWY6IFwiaHR0cHM6Ly9naXRodWIuY29tL2tldmlucmFtaGFyYWsvcGxheWdyb3VuZC1icm93c2VyLWZzXCIsXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIlZpbVwiLFxuICAgIGlkOiBcInRzLXBsYXlncm91bmQtcGx1Z2luLXZpbVwiLFxuICAgIGRlc2NyaXB0aW9uOiBcIlByb3ZpZGVzIFZpbSBrZXliaW5kaW5ncyBmb3IgVHlwZVNjcmlwdCBQbGF5Z3JvdW5kIGVkaXRvci5cIixcbiAgICBhdXRob3I6IFwicXVyYW15XCIsXG4gICAgaHJlZjogXCJodHRwczovL3d3dy5ucG1qcy5jb20vcGFja2FnZS90cy1wbGF5Z3JvdW5kLXBsdWdpbi12aW1cIixcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiTGluayBTaG9ydGVuZXJcIixcbiAgICBpZDogXCJ0eXBlc2NyaXB0LXBsYXlncm91bmQtbGluay1zaG9ydGVuZXJcIixcbiAgICBkZXNjcmlwdGlvbjpcbiAgICAgIFwiQ3JlYXRlIHNob3J0LWxpbmtzIGZvciB5b3VyIGN1cnJlbnQgcGxheWdyb3VuZCBjb2RlIGFuZCBjb21waWxlciBzZXR0aW5nc1wiLFxuICAgIGF1dGhvcjogXCJnaWxsY2hyaXN0aWFuXCIsXG4gICAgaHJlZjogXCJodHRwczovL2dpdGh1Yi5jb20vZ2lsbGNocmlzdGlhbi90c3BsYXkuZGV2XCIsXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIkBUeXBlIENoYWxsZW5nZXMvcGx1Z2luXCIsXG4gICAgaWQ6IFwiQHR5cGUtY2hhbGxlbmdlcy9wbGF5Z3JvdW5kLXBsdWdpblwiLFxuICAgIGRlc2NyaXB0aW9uOiBcIlBsYXlncm91bmQgaW50ZWdyYXRpb24gZm9yIFR5cGUgQ2hhbGxlbmdlc1wiLFxuICAgIGF1dGhvcjogXCJhbnRmdVwiLFxuICAgIGhyZWY6XG4gICAgICBcImh0dHBzOi8vZ2l0aHViLmNvbS90eXBlLWNoYWxsZW5nZXMvcGxheWdyb3VuZC10eXBlLWNoYWxsZW5nZXMtcGx1Z2luXCIsXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIlBsYW5uaW5nIERheVwiLFxuICAgIGlkOiBcInBsYW5uaW5nLWRheVwiLFxuICAgIGRlc2NyaXB0aW9uOlxuICAgICAgXCJUeXBlU2NyaXB0IFBsYXlncm91bmQgcGx1Z2luIGZvciBwbGFubmluZyBhbiBhZ2lsZSBzcHJpbnQgb3IgaXRlcmF0aW9uIGJ5IGNvbWJpbmluZyBzdGF0aWMgdHlwZSB2ZXJpZmljYXRpb24gb2YgY29uZmlndXJhdGlvbiB3aXRoIGEgUmVhY3QgR2FudHQgY2hhcnQgdmlzdWFsaXphdGlvbi5cIixcbiAgICBhdXRob3I6IFwianN1ZGVyXCIsXG4gICAgaHJlZjogXCJodHRwczovL2dpdGh1Yi5jb20vSlN1ZGVyLXh4L3BsYW5uaW5nLWRheVwiLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJQcmVzZW50YXRpb24gTW9kZVwiLFxuICAgIGlkOiBcInR5cGVzY3JpcHQtcGxheWdyb3VuZC1wcmVzZW50YXRpb24tbW9kZVwiLFxuICAgIGRlc2NyaXB0aW9uOlxuICAgICAgXCJQcmVzZW50IHlvdXIgVHlwZVNjcmlwdCB0YWxrIGRpcmVjdGx5IGluIHRoZSBwbGF5Z3JvdW5kLCBwb3dlcmVkIGJ5IEdpdEh1YiBnaXN0cyFcIixcbiAgICBhdXRob3I6IFwib3J0YVwiLFxuICAgIGhyZWY6XG4gICAgICBcImh0dHBzOi8vd3d3Lm5wbWpzLmNvbS9wYWNrYWdlL3R5cGVzY3JpcHQtcGxheWdyb3VuZC1wcmVzZW50YXRpb24tbW9kZVwiLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJEdHMgUGx1Z2luXCIsXG4gICAgaWQ6IFwicGxheWdyb3VuZC1kdHMtcGx1Z2luXCIsXG4gICAgZGVzY3JpcHRpb246IFwiR2VuZXJhdGUgZC50cyBmcm9tIEpTXCIsXG4gICAgYXV0aG9yOiBcInNhbmRlcnNfblwiLFxuICAgIGhyZWY6IFwiaHR0cHM6Ly9naXRodWIuY29tL3NhbmRlcnNuL3BsYXlncm91bmQtZHRzLXBsdWdpblwiLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJUcmFuc2Zvcm1lciBUaW1lbGluZVwiLFxuICAgIGlkOiBcInBsYXlncm91bmQtdHJhbnNmb3JtZXItdGltZWxpbmVcIixcbiAgICBkZXNjcmlwdGlvbjpcbiAgICAgIFwiTGV0cyB5b3Ugc2VlIGVhY2ggc3RhZ2Ugb2YgdGhlIHRyYW5zZm9ybSBwcm9jZXNzIGZvciBhIFR5cGVTY3JpcHQgSlMgKyBEVFMgZW1pdCBhcyBhIHRpbWVsaW5lLlwiLFxuICAgIGF1dGhvcjogXCJvcnRhXCIsXG4gICAgaHJlZjogXCJodHRwczovL2dpdGh1Yi5jb20vb3J0YS9wbGF5Z3JvdW5kLXRyYW5zZm9ybWVyLXRpbWVsaW5lXCIsXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIkNvZGUgU2hvdyBGbG93XCIsXG4gICAgaWQ6IFwicGxheWdyb3VuZC1jb2RlLXNob3ctZmxvd1wiLFxuICAgIGRlc2NyaXB0aW9uOiBcIlZpc3VhbGl6ZSBzb21lIG9mIHRoZSBDb2RlIEZsb3cgQW5hbHlzaXNcIixcbiAgICBhdXRob3I6IFwib3J0YVwiLFxuICAgIGhyZWY6IFwiaHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvcGxheWdyb3VuZC1jb2RlLXNob3ctZmxvd1wiLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJHaXRIdWIgRXhwbG9yZXJcIixcbiAgICBpZDogXCJ0cy1wbGF5Z3JvdW5kLXBsdWdpbi1naXRodWItZXhwbG9yZXJcIixcbiAgICBkZXNjcmlwdGlvbjogXCJFeHBsb3JlIGEgR2l0SHViIHJlcG8gb24gVHlwZVNjcmlwdCBwbGF5Z3JvdW5kXCIsXG4gICAgYXV0aG9yOiBcImVtbnVkZ2VcIixcbiAgICBocmVmOiBcImh0dHBzOi8vd3d3Lm5wbWpzLmNvbS9wYWNrYWdlL3RzLXBsYXlncm91bmQtcGx1Z2luLWdpdGh1Yi1leHBsb3JlclwiLFxuICB9LFxuXTtcbiJdfQ==

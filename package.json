@@ -38,6 +38,8 @@
     "bootstrap": "yarn workspaces foreach -v -t --exclude root run bootstrap && BOOTSTRAPPING=true yarn workspaces foreach -v -t --exclude root run build",
     "start": "concurrently -p \"[{name}]\" -n \"BUILD,SITE\" -c \"bgBlue.bold,bgMagenta.bold\" \"node watcher.js\" \"yarn workspace typescriptlang-org start\"",
     "build": "yarn workspaces foreach -v -t --exclude root --exclude typescriptlang-org run build",
+    "build:azure": "yarn test && yarn build-full",
+    "build-full": "yarn docs-sync pull microsoft/TypeScript-Website-localizations#main 1 && yarn bootstrap && yarn workspace typescriptlang-org setup-playground-cache-bust && yarn workspace typescriptlang-org setup-staging && yarn build && yarn build-site && cp -r packages/typescriptlang-org/public site",
     "build-site": "yarn workspace typescriptlang-org build",
     "compile": "yarn workspace typescriptlang-org tsc",
     "update-snapshots": "yarn workspace typescriptlang-org update-snapshots",

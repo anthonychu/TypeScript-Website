@@ -58,6 +58,7 @@ jobs:
           cd playwright-tests
           npm i
           npx playwright install-deps
+          npx playwright install
           npx playwright test
         env:
           BASE_URL: ${{ steps.builddeploy.outputs.static_web_app_url }}

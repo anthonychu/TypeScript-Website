@@ -59,7 +59,7 @@ jobs:
           npm i
           npx playwright install-deps
           npx playwright install
-          npx playwright test
+          npx playwright test --reporter=line
         env:
           BASE_URL: ${{ steps.builddeploy.outputs.static_web_app_url }}
 

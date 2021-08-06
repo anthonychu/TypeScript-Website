@@ -38,7 +38,7 @@ const Index: React.FC<Props> = (props) => {
   useEffect(() => { setupVideosSection() }, [])
 
   return (
-    <Layout title="Typed JavaScript at Any Scale." description="TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience by catching errors and providing fixes before you even run your code." lang={props.pageContext.lang} suppressCustomization>
+    <Layout title="Typed JavaScript at Any Scale!" description="TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience by catching errors and providing fixes before you even run your code." lang={props.pageContext.lang} suppressCustomization>
 
       <div id="index">
         <VersionBar />
